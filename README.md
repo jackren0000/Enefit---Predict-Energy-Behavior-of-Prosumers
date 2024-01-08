@@ -16,3 +16,4 @@ Submissions are evaluated on the Mean Absolute Error (MAE) between the predicted
 
 ## Submitting
 
+You must submit to this competition using the provided python time-series API, which ensures that models do not peek forward in time. To use the API, follow [the template in this notebook](https://www.kaggle.com/code/sohier/enefit-basic-submission-demo).
