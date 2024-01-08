@@ -3,4 +3,5 @@ of Estonian prosumers with solar panels, utilizing weather, energy price data, a
 records of photovoltaic capacity.
 
 It's a time series forecasting contest judged by a private leaderboard based 
-on real data collected post-submission. All datasets adhere to the EET/EEST time standard.
+on real data collected post-submission. All datasets adhere to the 
+EET/EEST (Eastern European Time/ Eastern European Summer Time) time standard.
