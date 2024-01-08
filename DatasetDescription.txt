@@ -5,3 +5,7 @@ records of photovoltaic capacity.
 It's a time series forecasting contest judged by a private leaderboard based 
 on real data collected post-submission. All datasets adhere to the 
 EET/EEST (Eastern European Time/ Eastern European Summer Time) time standard.
+Most of the variables are a sum or an average over a period of 1 hour. 
+The datetime column always gives the start of the 1-hour period. 
+However, for the weather datasets, some variables such as temperature or cloud cover, 
+are given for a specific time, which is always the end of the 1-hour period.
