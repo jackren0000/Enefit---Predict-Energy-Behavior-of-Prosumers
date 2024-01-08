@@ -8,3 +8,11 @@ The goal is to align expected energy usage with actual consumption to reduce cos
 ## Competition Description
 
 Prosumers play a pivotal role in energy imbalances, increasing operational costs and potentially destabilizing the power grid. Effective solutions could significantly reduce these costs and boost the use of renewable energy sources.
+
+## Evaluation
+
+Submissions are evaluated on the Mean Absolute Error (MAE) between the predicted return and the observed targe.
+
+
+## Submitting
+
