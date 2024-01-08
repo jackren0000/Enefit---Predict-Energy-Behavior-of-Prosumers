@@ -1,11 +1,10 @@
-# [Enefit---Predict-Energy-Behavior-of-Prosumers](https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers)
-## This is a kaggle competition
+# [Enefit - Predict Energy Behavior of Prosumers](https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers)
+## Kaggle Competition Overview
 
-### Overview
-Enefit - Predict Energy Behavior of Prosumers Predict Prosumer Energy Patterns and Minimize Imbalance Costs.
-See the details here: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers
+Enefit's challenge is to predict prosumer energy patterns to minimize imbalance costs. For details, visit [Kaggle competition page](https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers).
 
-This competition is about predicting energy use in order to reduce energy imbalance cost.
-(Energy expected to be used usually doesn't line up with the actual energy used)
+The goal is to align expected energy usage with actual consumption to reduce costs associated with energy imbalances.
 
-### Description
+## Competition Description
+
+Prosumers play a pivotal role in energy imbalances, increasing operational costs and potentially destabilizing the power grid. Effective solutions could significantly reduce these costs and boost the use of renewable energy sources.
