@@ -17,11 +17,3 @@ Submissions are evaluated on the Mean Absolute Error (MAE) between the predicted
 ## Submitting
 
 You must submit to this competition using the provided python time-series API, which ensures that models do not peek forward in time. To use the API, follow [the template in this notebook](https://www.kaggle.com/code/sohier/enefit-basic-submission-demo).
-
-@misc{predict-energy-behavior-of-prosumers,
-    author = {Kristjn Eljand, Martin Laid, Jean-Baptiste Scellier, Sohier Dane, Maggie Demkin, Addison Howard},
-    title = {Enefit - Predict Energy Behavior of Prosumers},
-    publisher = {Kaggle},
-    year = {2023},
-    url = {https://kaggle.com/competitions/predict-energy-behavior-of-prosumers}
-}
