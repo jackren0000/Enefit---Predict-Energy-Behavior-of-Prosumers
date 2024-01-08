@@ -1,8 +1,3 @@
-The challenge in this competition is to predict electricity produced and consumed by Estonian energy customers,
-who have installed solar panels. Having access to weather data, the relevant energy prices, and reccords of
-installed photovoltaic capacity.
+This competition requires forecasting the electricity generation and consumption of Estonian prosumers with solar panels, utilizing weather, energy price data, and records of photovoltaic capacity.
 
-This is a forecasting competition using the time series API. The private leaderboard will be determined using real
-data gathered after ther submission period closes.
-
-All datasets following the same time convention. Time is given in EET/EEST.
+It's a time series forecasting contest judged by a private leaderboard based on real data collected post-submission. All datasets adhere to the EET/EEST time standard.
