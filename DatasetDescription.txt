@@ -29,3 +29,34 @@ origin_date - The date when the day-ahead prices became available.
 forecast_date - The date when the forecast prices should be relevant.
 [lowest/highest]_price_per_mwh - The lowest/highest price of natural gas that on the day ahead market that trading day, in Euros per megawatt hour equivalent.
 data_block_id
+
+client.csv:
+
+product_type
+county - An ID code for the county. See county_id_to_name_map.json for the mapping of ID codes to county names.
+eic_count - The aggregated number of consumption points (EICs - European Identifier Code).
+installed_capacity - Installed photovoltaic solar panel capacity in kilowatts.
+is_business - Boolean for whether or not the prosumer is a business.
+date
+data_block_id
+
+electricity_prices.csv:
+
+origin_date
+forecast_date - Represents the start of the 1-hour period when the price is valid
+euros_per_mwh - The price of electricity on the day ahead markets in euros per megawatt hour.
+data_block_id
+
+
+
+
+
+public_timeseries_testing_util.py An optional file intended to make it easier to run custom offline API tests. See the script's docstring for details. You will need to edit this file before using it.
+
+example_test_files/ Data intended to illustrate how the API functions. Includes the same files and columns delivered by the API. The first three data_block_ids are repeats of the last three data_block_ids in the train set.
+
+example_test_files/sample_submission.csv A valid sample submission, delivered by the API. See this notebook for a very simple example of how to use the sample submission.
+
+example_test_files/revealed_targets.csv The actual target values from the day before the forecast time. This amounts to two days of lag relative to the prediction times in the test.csv.
+
+enefit/ Files that enable the API. Expect the API to deliver all rows in under 15 minutes and to reserve less than 0.5 GB of memory. The copy of the API that you can download serves the data from example_test_files/. You must make predictions for those dates in order to advance the API but those predictions are not scored. Expect to see roughly three months of data delivered initially and up to ten months of data by the end of the forecasting period.
